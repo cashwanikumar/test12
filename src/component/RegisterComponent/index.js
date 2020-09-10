@@ -6,7 +6,7 @@ import './index.scss'
 const Register = () => {
   return (
     <div className="registration-container">
-      <h3 className="title">Registration</h3>
+      <h3 className="title mt-2">Registration</h3>
       <FormGroup>
         <Label>First Name</Label>
         <Input />
