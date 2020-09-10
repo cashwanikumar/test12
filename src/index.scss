@@ -1,0 +1,70 @@
+@import "./variable.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $bg-clr;
+}
+
+.div-border-right {
+  border-right: 2px solid $light-blue;
+}
+
+.title {
+  color: $tag-clr;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: $text-color;
+  border-color: $text-color;
+}
+
+.btn {
+  padding: 1em 1.2em;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: $text-color;
+  border-color: $text-color;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $tag-clr;
+  border-color: $tag-clr;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: $tag-clr;
+  border-color: $tag-clr;
+}
+
+.fs-1-5{
+  font-size: 1.5em;
+}
+
+a {
+  color: $tag-clr;
+  text-decoration: underline;
+}
+
+.bld {
+  font-weight: bold;
+}

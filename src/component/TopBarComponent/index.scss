@@ -1,0 +1,20 @@
+@import '../../variable.scss';
+
+.topbar-div {
+  background-color:$tag-clr;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  .search {
+    max-width: 400px;
+    margin: auto 2em;
+    color: $text-color;
+    font-size: 1.3em;
+  }
+  .search::placeholder {
+    color: $text-color;
+  }
+  .logo {
+    margin: auto 2em;
+  }
+}
